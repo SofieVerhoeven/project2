@@ -1,0 +1,20 @@
+/* Aangepaste kleur voor navigatiebalk */
+.custom-navbar {
+  background-color: #ccfbfe; /* Vervang met gewenste kleur */
+}
+
+/* Kleur tekst en links */
+.navbar-brand,
+.custom-navbar .nav-link {
+  color: black;
+}
+
+.custom-navbar .nav-link:hover {
+  color: rgba(222, 8, 8, 0.86); /* Kleur bij hover */
+}
+
+.navbar .nav-link.active {
+  color: #6e0d0d; /* Vervang met gewenste kleur */
+  font-weight: bold;
+  font-size: medium;
+}

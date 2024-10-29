@@ -1,0 +1,14 @@
+.card-img-top {
+  height: 200px; /* Stel een vaste hoogte in naar wens */
+  object-fit: cover; /* Zorgt ervoor dat de afbeelding gecentreerd en bijgesneden wordt */
+  width: 100%; /* Houdt de breedte consistent */
+}
+.card {
+  height: 400px; /* Standaardhoogte voor alle cards */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card-body {
+  flex-grow: 1; /* Zorgt ervoor dat de tekst in de card wordt uitgerekt indien nodig */
+}
